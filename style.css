@@ -38,8 +38,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 800px;
-    height: 450px;
+    width: 100%;
+    height: auto;
     color: #242424 !important;
     background-image: url("assets/pocom3__header-section.svg");
     background-size: cover;
@@ -81,10 +81,17 @@
     line-height: 1.4;
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+
+.pocom3__description-list-item_clr_white {
+    margin: 0;
+    padding: 0;
 }
 
 .pocom3__regular-section {
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     height: auto;
     padding: 90px;
     display: -webkit-box;
@@ -242,4 +249,45 @@
     width: 400px;
     height: auto;
     animation: rotation 120s linear infinite;
+}
+
+@media (max-width: 680px) {
+    .pocom3__header-section {
+        padding: 30px;
+    }
+    .pocom3__double-column-section {
+        flex-direction: column;
+    }
+    .pocom3__double-column-text-wrapper {
+        padding-right: 90px;
+        width: 100%;
+    }
+    .pocom3__double-column-image-wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .pocom3__header-section {
+        padding: 30px;
+    }
+    .pocom3__description-list-item_clr_white {
+        padding: 5px;
+        margin-bottom: 5px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+    .pocom3__regular-section {
+        padding: 30px;
+    }
+    .pocom3__double-column-text-wrapper {
+        padding: 30px;
+    }
+    .pocom3__text-on-pic-section {
+        padding: 30px;
+        height: auto;
+    }
+    .pocom3__text-on-pic-section-left {
+        padding: 30px;
+        height: auto;
+    }
 }
