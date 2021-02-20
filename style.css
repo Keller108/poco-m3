@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+*::selection {
+    background: #FFC701;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.details__content-wrap {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    overflow: hidden;
+}
+
+.pocom3__header-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    height: 450px;
+    color: #242424 !important;
+    background-image: url("assets/pocom3__header-section.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pocom3__title {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.pocom3__subtitle {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.pocom3__description-list {
+    color: #242424 !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pocom3__description-list-item {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+.pocom3__regular-section {
+    width: 800px;
+    height: auto;
+    padding: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    color: #242424 !important;
+    box-sizing: border-box;
+}
+
+.pocom3__section-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.pocom3__section-text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.pocom3__section-text:only-of-type {
+    margin-bottom: 0;
+}
+
+.pocom3__section-text:last-of-type {
+    margin-bottom: 0;
+}
+
+.pocom3__regural-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.margin-bottom_30p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px !important;
+}
+
+.pocom3_clr-text_white {
+    color: #fff !important;
+}
+
+.details-block__npb {
+    padding-bottom: 0;
+}
+
+.pocom3__single-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.pocom3__double-column-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #242424 !important;
+}
+
+.pocom3__double-column-text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 90px;
+    padding-right: 0;
+    width: calc(50% - 10px);
+}
+
+.pocom3__double-column-image-wrapper {
+    width: calc(50% - 10px);
+    height: auto;
+}
+
+.pocom3__double-column-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.pocom3__description-list-span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #242424;
+    margin: 0;
+    padding: 0;
+}
+
+.pocom3__text-on-pic-section {
+    width: 100%;
+    height: 533px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("assets/pocom3__text-on-pic-section-pic.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center !important;
+    color: #fff !important;
+}
+
+.pocom3__text-on-pic-section-left {
+    width: 100%;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff !important;
+    box-sizing: border-box;
+    padding: 90px;
+    margin: 0;
+    background-image: url("assets/pocom3__qualcomm-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.pocom3-rotate {
+    width: 400px;
+    height: auto;
+    animation: rotation 120s linear infinite;
+}
