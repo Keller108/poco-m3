@@ -252,9 +252,6 @@
 }
 
 @media (max-width: 680px) {
-    .pocom3__header-section {
-        padding: 30px;
-    }
     .pocom3__double-column-section {
         flex-direction: column;
     }
@@ -268,6 +265,9 @@
 }
 
 @media (max-width: 480px) {
+    .pocom3__header-section {
+        padding: 30px;
+    }
     .pocom3__header-section {
         padding: 30px;
     }
